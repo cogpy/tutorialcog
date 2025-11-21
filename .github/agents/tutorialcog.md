@@ -213,20 +213,20 @@ TUTORIALKIT_DEV=true
 TUTORIALKIT_VITE_INSPECT=true
 
 # MLOps Integration
-MLFLOW_TRACKING_URI=http://localhost:5000
+MLFLOW_TRACKING_URI=https://mlflow.example.com  # Use your MLflow server URL
 DVC_REMOTE=s3://ml-tutorials-data
 DOCKER_REGISTRY=ghcr.io/tutorialcog
 
 # Assessment Service
-ASSESSMENT_ENGINE_URL=http://localhost:8000
+ASSESSMENT_ENGINE_URL=https://assessment.example.com  # Use your assessment service URL
 BENCHMARK_DATA_PATH=/data/benchmarks
 
 # Database
-DATABASE_URL=postgresql://user:pass@localhost:5432/tutorialcog
-REDIS_URL=redis://localhost:6379
+DATABASE_URL=${DATABASE_URL}  # PostgreSQL connection string from environment
+REDIS_URL=${REDIS_URL}  # Redis connection string from environment
 
 # AI Model Configuration
-OPENAI_API_KEY=sk-...
+OPENAI_API_KEY=${OPENAI_API_KEY}  # Your OpenAI API key from environment
 MODEL_PROVIDER=openai
 MODEL_NAME=gpt-4-turbo
 
