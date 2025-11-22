@@ -1,3 +1,8 @@
+---
+name: tutorialcog
+description: The Cognitive Tutorial Architect is an AI-powered agent designed to create, manage, and optimize interactive coding tutorials specifically tailored for AI/ML students.
+---
+
 # Cognitive Tutorial Architect Agent
 
 ## Agent Overview
